@@ -8,7 +8,7 @@
 .python_history
 .sqlite_history
 
-# Ignore user directories
+# Ignore user directories within the project
 /Library/
 /Music/
 /Pictures/
@@ -18,14 +18,22 @@
 /Documents/
 /Downloads/
 
-# Ignore other unnecessary files in upper directories
-../../../.CFUserTextEncoding
-../../../.DS_Store
-../../../.bash_completion
-../../../.bash_history
-../../../.bash_sessions/
-../../../.config/
-../../../.docker/
-../../../.gitconfig
-../../../.vscode/
+# Ignore VSCode settings and extensions
+.vscode/
 
+# Ignore Docker-related files
+.docker/
+
+# Ignore Python virtual environments and cache
+env/
+venv/
+__pycache__/
+
+# Ignore Git configuration files
+.gitconfig
+
+# Ignore node_modules (if applicable for JS projects)
+node_modules/
+
+.kube/
+.minikube/
