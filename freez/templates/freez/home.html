@@ -1,0 +1,287 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ar">
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'home.css' %}">
+
+
+        <style>
+            a:link,
+            a:visited {
+                background-color: white;
+                color: black;
+                border: 2px solid green;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            a:hover,
+            a:active {
+                background-color: green;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <header>
+        <div class="header-container">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="{% url 'home' %}">الرئيسية</a></li>
+                    <li><a href="{% url 'about' %}">من نحن</a></li>
+                </ul>
+            </nav>
+            <img src="{% static 'logo.jpeg' %}" alt="family" class="logo">
+        </div>
+    </header>
+
+    <body>
+        <div class="container">
+            <img src="{% static '30.jpg' %}" alt="family" class="image with-shadow">
+        </div>
+
+        <div class="content">
+            <h1>مرحبًا بكم في موقعنا</h1>
+            <p>نحن نقدم أفضل المعلومات المتنوعة باستخدام ChatGPT والتقنيات الحديثة.</p>
+
+            <div class="sections">
+                <div class="section-item">نحن</div>
+                <div class="section-item">نحثكم</div>
+                <div class="section-item">على التعليم</div>
+
+
+            </div>
+
+            <div class="container">
+                <img src="{% static '14.jpg' %}" alt="family" class="image with-shadow">
+            </div>
+
+            <div class="gt5"> ما هو GPT-5؟
+
+                <p> OpenAI o1 هي أحدث سلسلة من الموديلات اللغوية الكبيرة التي أصدرتها <a
+                        href='https://www.youtube.com/watch?v=pFb1OV10PKs'>OpenAI</a> في 12 سبتمبر
+                    2024، وتتألف حاليًا من طرازين: o1-المعاينة و o1-الميني.
+
+                    يتمثل الاختلاف <a href="https://www.youtube.com/watch?v=xOhdV34ZaZo">الأكبر</a> بين o1 ونماذج الشركة
+                    السابقة في سلسلة التفكير المنطقي. على الرغم من أنه لم يتم إصداره بالكامل بعد، إلا أن الطرازين
+                    التجريبي والمصغر يتفوقان بالفعل على GPT-4o في اختبارات الرياضيات والعلوم والبرمجة.
+
+                    النموذج الجديد هو الأول من نوعه القادر على التفكير في الوقت الحقيقي (تماماً مثل الإنسان).
+
+                    ماذا تعني قدرته المنطقية بالنسبة<a href='https://www.youtube.com/shorts/Y3Dy4_t6Mig'>للمستخدمين؟</a>
+                    قال أحد المديرين التنفيذيين الذين يتمتعون بإمكانية
+                    الوصول المتقدم: "إنه جيد حقًا، بل أفضل ماديًا".
+
+
+                    ما الجديد في GPT-5<a href="https://www.youtube.com/watch?v=6TZRN1taIgA">GPT-5</a>؟
+
+                    فهم أفضل للنصوص:
+                    شرح: GPT-5 سيكون أكثر ذكاءً في فهم الجمل المعقدة.
+                    مثال: إذا سألت "كيف يعمل الذكاء الاصطناعي؟"، سيعطيك إجابة أوضح وأكثر دقة.
+                    معلومات أكثر:
+                    شرح: GPT-5 سيتم تدريبه على المزيد من المعلومات، مما يجعله أقوى.
+                    مثال: إذا طلبت تلخيص فيلم أو كتاب، سيقدم GPT-5 ملخصًا أكثر شمولًا.
+                    أخطاء أقل:
+                    شرح: سيكون GPT-5 أقل في ارتكاب الأخطاء أو الإجابات غير الواضحة.
+                    مثال: إذا كان لديك سؤال معقد، سيجيب GPT-5 بشكل دقيق ومباشر.
+                    تفاعل طبيعي:
+                    شرح: سيتفاعل GPT-5 معك بشكل أفضل.
+                    مثال: إذا طرحت عدة أسئلة معًا، سيفهم GPT-5 كل الأسئلة ويربط بينها ليعطيك إجابة شاملة.
+                    إمكانيات جديدة:
+                    شرح: GPT-5 قد يضيف أشياء جديدة مثل فهم الصور أو الصوت.
+                    مثال: يمكنك رفع صورة، وسيقوم GPT-5 بوصفها لك.
+                    بهذا، سيكون GPT-5 أسرع وأذكى في الرد على أسئلتك وبطريقة أوضح!
+                </p>
+            </div>
+
+
+
+            <div class="gpt5">
+                <p>
+                    بالنسبة للذاكرة في GPT-5:
+
+                    ذاكرة أفضل:
+
+                    شرح: GPT-5 سيصبح أفضل في تذكر ما قلته سابقًا في المحادثة.
+                    مثال: إذا كنت تتحدث مع GPT-5 حول موضوع معين وتطرحه سؤالًا لاحقًا يتعلق بشيء ذكرته في بداية
+                    المحادثة،
+                    سيستطيع GPT-5 تذكر ما تحدثت عنه وربط الإجابة الجديدة بالمعلومات السابقة.
+                    تذكر السياق الطويل:
+                    شرح: GPT-5 يمكن أن يتذكر محادثات طويلة بشكل أفضل، مما يعني أنه سيبني على المعلومات التي قدمتها
+                    سابقًا
+                    ويعطيك ردودًا متسقة ومترابطة.
+
+                    مثال: إذا كنت تسأل سلسلة من الأسئلة حول مشروع معين، سيبقى GPT-5 على دراية بكل ما قلته ويواصل
+                    الإجابة
+                    بناءً على ما ناقشتموه من قبل، بدون الحاجة إلى إعادة شرح كل شيء.
+                    ذاكرة GPT-5 ستجعله أكثر ذكاءً في متابعة المواضيع المعقدة والمحادثات الطويلة!
+
+                </p>
+            </div>
+
+
+
+            <div class='video1'>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/j02OZRjf2d8?si=prH3BqVC7K7iiNsz"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
+
+            <div class="logo2"> <img src="{% static '24.jpeg' %}" alt="family" class="logo2">
+
+
+            </div>
+            <div class="gpt5">
+                <p>
+
+                    ChatGPT، مدمج بسلاسة.
+                    أبل <a href="https://www.youtube.com/watch?v=sHTio-L8-c0">دمج</a> ChatGPT من OpenAI في أدوات الكتابة
+                    يضع في خدمتك خبرة إضافية متى طلبتها من دون أن تضطرّ إلى
+                    التنقل بين الأدوات. وSiri له نصيبه أيضاً، إذ يستفيد من ChatGPT لتنفيذ طلبات معينة، بما في ذلك
+                    الأسئلة المتعلقة بالصور أو المستندات. ومع ميزة "كتابة" في أدوات الكتابة، يمكنك من لا شيء إنشاء محتوى
+                    جديد كلياً.
+                    أنت من يتحكم في وقت استخدام <a href="https://www.youtube.com/watch?v=gwkGmM8Ww-4">ChatGPT،</a> ويعود
+                    لك قرار مشاركة المعلومات التي تريدها. وبإمكان أي شخص
+                    استعمال <a href="  https://www.youtube.com/watch?v=8MivpEyWe7g">ChatGPT</a> مجاناً من دون إنشاء
+                    حساب، أما المشتركون في هذه الخدمة فيستطيعون ربط حساباتهم للوصول
+                    إلى الميزات المدفوعة في سياق تجاربهم.
+                </p>
+
+            </div>
+            <div class="apple_logo">
+                <img src="{% static '13.jpg' %}" alt="family" class="apple_logo">
+
+            </div>
+
+
+
+            <div class="chatbot">
+                <a href=https://claude.ai> <img src="{% static '37.png' %}" alt="family" class="chatbot"></a>
+                <a href=" https://www.perplexity.ai"> <img src="{% static '35.png' %}" alt="family" class="chatbot"></a>
+                <a href=https://copilot.microsoft.com> <img src="{% static '36.jpeg' %}" alt="family" class="chatbot">
+                    <a href=https://gemini.google.com/app> <img src="{% static '16.jpeg' %}" alt="family"
+                            class="chatbot"></a>
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="video2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/x-3CULlaXEQ?si=2FCh_Y-CJKNwhsuH"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+
+
+
+        <div class="gpt5">
+            <p>
+
+                هل أنت مستعد لوضع ثقتك في الجيل القادم مع التكنولوجيا الجديدة؟ الدكتور يورام سولومون، مؤلف كتاب "الثقة"،
+                يتحدانا للتفكير في أهمية الثقة في مواجهة الابتكارات الجديدة. في حديثه الآسر في TEDx، يكشف كيف أن تاريخ
+                المقاومة تجاه التكنولوجيا الجديدة يعيد نفسه، بدءًا من الواي فاي إلى الآلات الحاسبة، والآن مع ظهور
+                <a href="https://www.youtube.com/watch?v=xy_tb2jeA5I">ChatGPT،</a> النموذج اللغوي القائم على الذكاء
+                الاصطناعي. بينما تقوم العديد من المناطق التعليمية في الولايات
+                المتحدة بحظر استخدامه في شبكاتها، ويدعو إيلون ماسك إلى وقف تطوير الذكاء الاصطناعي، يدافع الدكتور سولومون
+                عن فكرة الثقة في الطلاب ومنحهم الفرصة لاستخدام <a
+                    href="https://www.youtube.com/watch?v=qH-wuvdF69w">ChatGPT،</a> مؤكدًا على الفائدة الفريدة التي يمكن
+                أن تقدمها
+                هذه التكنولوجيا في التعليم والاستخدام الأخلاقي لها.
+
+                الدكتور سولومون هو باحث في مجال الثقة، مؤلف، ومضيف لبرنامج "The Trust Show" البودكاست. نشر 16 كتابًا
+                وأكثر من 300 مقال حول الثقة، ثقافة الابتكار، وريادة الأعمال. يحمل الدكتوراه في التنظيم والإدارة،
+                وماجستير في إدارة الأعمال، ودرجة في القانون، ودرجة في الهندسة. قدم الدكتور سولومون حديثين في <a
+                    href="https://www.youtube.com/watch?v=8M84LygDvAE">TEDx،</a> وهو
+                أستاذ مساعد في ريادة الأعمال في جامعة SMU، وكان مديرًا تنفيذيًا، ومسؤولًا منتخبًا، وطيارًا.
+            </p>
+        </div>
+        <div class=" mask">
+            <p>
+            <h3> "ا ختيارية" أو "هواية".. هكذا يتصور إيلون ماسك <i class="material-icons"
+                    style="font-size:24px;">مستقبل</i>
+                <i class="material-icons" style="font-size:36px;color: rgb(59, 121, 163);">الوظائف</i>
+                <i class="material-icons" style="font-size:48px;color:red;">مع</i>
+                <iclass="material-icons" style="font-size:60px;color:lightblue;"> الذكاء الاصطناعي</i>
+
+
+                    </h2>
+                    نشر ديما زينيك على حسابه الرسمي في "إكس" مقطع فيديو يُظهر عملاق التكنولوجيا إيلون ماسك وهو يتحدث
+                    بشكل
+                    مباشر عن الذكاء الاصطناعي وخص بالتحديد "جيميناي" (Gemini) و"أوبن إيه آي" (OpenAI). وقد شارك ماسك هذا
+                    الفيديو على صفحته الشخصية.
+
+                    وقال ماسك في الفيديو المصور "لدي قلق حقيقي بشأن جميع برامج الذكاء الاصطناعي، وأكبر برنامجين حاليا
+                    هما
+                    "جيميناي" و"أوبن إيه آي"، وأعتقد أن هذه في الواقع مشكلة كبيرة جدا؛ إنهما ليسا شريكين يسعيان للوصول
+                    إلى
+                    الحقيقة في شراكتهما مع مايكروسوفت".
+
+                    وتابع بقوله: لديك "غوغل ديب مايند" و"أوبن إيه آي" و"مايكروسوفت" كأكبر لاعبين، ولديك "ميتا" في مكان
+                    ما في
+                    المركز الثالث".
+
+                    وأعرب ماسك عن قلقه من تقدم الذكاء الاصطناعي المتسارع واتهم هذه الشركات بأنها لا تهتم بالحقيقة وأنهم
+                    متملقون لأهدافهم السياسية.
+
+                    وطرح مثالا ليؤيد قوله، وهو عندما قامت غوغل بإطلاق "جيميناي" كان من بين الأسئلة التي طرحها
+                    المستخدمون:
+                    "أيهما أسوأ، عدم تحديد جنس كتلين جينر (وهو الرياضي والإعلامي الأميركي الذي ولد باسم ويليام بروس جينر
+                    ثم
+                    حول جنسه مؤخرا) أم الحرب النووية العالمية؟" فأجاب النموذج "عدم تحديد جنس كتلين جينر" وهي إجابة خاطئة
+
+                    ولكن هذا الاستنتاج جاء نتيجة توجيهه التوجيه الخاطئ برأي ماسك.
+                    وهنا يعتقد ماسك أن الذكاء الاصطناعي يجب أن يكون فضوليا في البحث عن الحقائق وإذا كان كذلك فسيكون هذا
+                    مفيدا
+                    للبشرية جمعاء. وتبدو هذه الأشياء صغيرة، ولكن بنظر ماسك فإنها كبيرة جدا، حيث يرى أن الذكاء الاصطناعي
+                    تدرّب
+                    بشكل أساسي على الكذب والخداع.
+                    </p>
+        </div>
+
+
+        <div class="video3">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rbeMEPAiZlI?si=C-Em_Gd5DK0yS8XT"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="video4">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eOgosTeaRj8?si=5WN3bdrW4VzsezhR"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 . جميع الحقوق محفوظة.</p>
+                <nav class="footer-nav">
+                    <a href="#">الرئيسية</a>
+
+
+                </nav>
+            </div>
+        </footer>
+
+
+    </body>
+
+</html>

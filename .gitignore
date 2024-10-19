@@ -1,0 +1,31 @@
+# Ignore system files and directories
+.DS_Store
+.Trash
+.bash_sessions/
+.zsh_sessions/
+.bash_history
+.zsh_history
+.python_history
+.sqlite_history
+
+# Ignore user directories
+/Library/
+/Music/
+/Pictures/
+/Public/
+/Movies/
+/Applications/
+/Documents/
+/Downloads/
+
+# Ignore other unnecessary files in upper directories
+../../../.CFUserTextEncoding
+../../../.DS_Store
+../../../.bash_completion
+../../../.bash_history
+../../../.bash_sessions/
+../../../.config/
+../../../.docker/
+../../../.gitconfig
+../../../.vscode/
+

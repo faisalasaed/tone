@@ -1,0 +1,102 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'about.css' %}">
+    <title>ChatGPT</title>
+</head>
+
+
+<footer class="footer">
+    <div class="footer-content">
+
+        <p> نحن نقدم أفضل المعلومات أنتظرونا في الموضوع القادم</p>
+
+        <nav class="footer-nav">
+            <a href="{% url 'home' %}">الرئيسية</a>
+
+        </nav>
+    </div>
+</footer>
+
+
+<body>
+    <p>
+    <h2>
+        في عالم مليء بالمعلومات المتناثرة، نحن هنا لنكون الجسر الذي يربط بين الفجوات الإخبارية المتعددة. نعمل على جم
+        الأخبار من مختلف المصادر، وتحليلها بعناية واختيار الموضوعات الأكثر أهمية وإثارة للجدل. من خلال رؤيتنا التحليلية
+        الشاملة، نقدم لكم تغطية متكاملة تجمع بين النصوص المكتوبة، الصور الحية، والفيديوهات الغنية، لتبسيط القضايا
+        المعقدة
+        وجعلها أقرب إلى فهم كم.
+
+        هدفنا هو تقديم الأخبار والمعلومات بأسلوب يضمن لكم تجربة استثنائية. نحرص على أن تكون الأخبار التي نقدمها ليست
+        مجرد
+        نقل للأحداث، بل تحليلًا عميقًا يتماشى مع واقع اليوم، يساعدكم على رؤية الصورة الكاملة واتخاذ قرارات مبنية على
+        معلومات
+        موثوقة.
+
+        نحن في خدمتكم، لنجلب لكم العالم بكل تفاصيله مباشرة إلى شاشاتكم، بأسلوب حديث يجمع بين الفهم العميق والعرض المرئي.
+
+        تواصل معنا عبر البريد الإلكتروني: Asaed.saed@outlook.com
+
+
+
+        معنا، ستجد الأخبار تأخذ شكلًا جديدًا، يجمع بين الفهم العميق والعرض الجذا ب.
+
+        </p>
+    </h2>
+    <div class="video-container">
+        <iframe class="video" width="560" height="315"
+            src="https://www.youtube.com/embed/f7eo1_p1Y-o?si=uVHLZ02sz15HcsWY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe class="video" width="560" height="315"
+            src="https://www.youtube.com/embed/cxIt89uBcpA?si=MdvHdjrFLwgxgA4b" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3RTK7kPRcQ4?si=_VI1j48a7jQJSRFF"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div>
+        <style>
+            .video-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                /* مسافة بين الفيديوهات */
+                margin: 20px;
+            }
+
+            .video {
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 . جميع الحقوق محفوظة.</p>
+
+            <nav class="footer-nav">
+                <a href="{% url 'home' %}">الرئيسية</a>
+
+
+            </nav>
+        </div>
+    </footer>
+    </hbody>
+
+</html>

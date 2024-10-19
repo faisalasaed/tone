@@ -1,0 +1,231 @@
+/* جعل الشعار على الجهة اليسرى */
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-image: url(0.jpg);
+    width: 100%;
+    height: 30px;
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ecf0f2;
+    padding: 10px 20px;
+    background-color: #151614;
+    border-radius:20px;
+}
+
+.navbar li a:hover {
+    background-color: #278993;
+}
+
+.logo {
+    height: 80px;
+    margin-left: 20px;
+    width: auto;
+}
+
+/* جعل النص العربي في اليمين */
+body {
+    direction: rtl;
+    text-align: right;
+    background-color: ;
+}
+
+.container {
+    text-align: center;
+    margin: 15px auto;
+}
+
+/* حجم متوسط للصورة مع تطبيق ظل */
+.image {
+    width: 40%;
+    height: auto;
+}
+
+/* إضافة تأثير عندما يتم الضغط على الصورة */
+.image {
+    
+    box-shadow: 2px 2px 5px red, goldenrod;
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.sections {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.section-item {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+a:link {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(9, 215, 146);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  /* mouse over link */
+ 
+  
+  
+  /* selected link */
+  a:active {
+    color: rgb(159, 159, 184);
+    text-decoration: none;
+    font-weight: bold;
+    a:link, a:visited {
+        background-color: white;
+        color: black;
+        border: 2px solid rgb(96, 144, 96);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: green;
+        color: white;
+      }
+
+
+
+  }
+  body{
+ 
+  font-size: 22px;
+  font-family: "Times";
+  background-color: #ffc;
+
+}
+ 
+body:focus { 
+  outline: none;
+}
+.logo2 {
+
+   padding: 10px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.apple_logo {
+
+    width:  400px;
+    padding: 15px;
+    margin: auto;
+    
+}
+.chatbot{
+
+   margin: 10px;
+    margin: 15px;
+    border-bottom-left-radius: 52px;
+    border-top-right-radius: 52px;
+}
+.video2{
+
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 15px;
+}
+
+
+.video3{
+
+     display: flex;
+    flex-direction: column;
+    align-items: center;    
+    flex-direction: column;
+    align-items: center;  
+    
+}
+.video4{
+text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 80%; /* Adjust the width as needed */ 
+    padding: 15px; 
+ }
+ .footer {
+    background-image: url(0.jpg);
+    text-align: center;
+    padding: 10px 0; /* تقليل الحشو لتقليل المساحة الفارغة */
+    position: relative;
+    bottom: 0;
+    width: 97%; /* تقليل العرض ليصبح أكثر ملاءمة */
+    max-width: 1200px; /* تحديد عرض أقصى */
+    border-bottom-left-radius: 200px; /* تقليل نصف قطر الحدود */
+    border-top-right-radius: 200px;   /* تقليل نصف قطر الحدود */
+    color: #f0e116;
+    margin: 0 auto; /* توسيط الحاشية */
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-nav a {
+    background-color: #baaa1a; /* لون الخلفية للأزرار */
+    color: #cfd60a; /* لون النص */
+    padding: 5px 15px; /* تقليل الحشو الداخلي للأزرار */
+    margin: 0 10px;
+   
+    border-radius: 10px; /* حواف مستديرة للأزرار */
+    display: inline-block;    
+    text-decoration: underline non;
+
+
+}
+
+.footer-nav a:hover {
+    background-color: #d5c01e;
+    
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px; /* تصغير حجم الخط */
+}
